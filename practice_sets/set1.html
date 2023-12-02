@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>Practise Set 1</title>
+    <!-- Priority order of styling:
+    i)Inline   ii)Internal   iii)External -->
+
     <link rel="stylesheet" href="set1.css">
     <style>
         #heading{
@@ -10,11 +13,26 @@
         #first, #second{
             color: rgb(15, 148, 37);
         }
+
+        #heading_2{
+            color: rgb(201, 89, 10);
+        }
+        .div_22{
+            color:tomato
+        }
+        p{
+            color:dodgerblue
+        }
     </style>
 </head>
 <body>
     <h1 style="color:red">CSS Basics(Level 1)</h1><hr>
-    <div id="heading" style="color:blueviolet">This is first div tag of HTML</div><hr>
+    <div id="heading" style="color:blueviolet">Style Tag</div><hr>
+
+    <h2 id="heading_2">Task 3</h2>
+    <div class="div_22">This is another div tag!</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, animi excepturi molestias cum quam pariatur facilis quia error minima quasi?</p><hr>
+    
     <div id="first">This is second div tag</div>
     <div id="second">We will be using group selector for id : first and second!</div>
 </body>
